@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+}
+
+.btn {
+    background-color: #f35f2f;
+    border: none;
+    padding: 12px 24px;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 5px;
+    opacity: 0.85;
+}
+
+.smart {
+    display: flex;
+    align-items: center;
+}
+
+.smart-left {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.smart-left h1 {
+    font-size: 20px;
+}
+
+.smart-right {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.smart-left h1 {
+    font-size: 64px;
+}
+
+.provide {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.provide-table {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 55px;
+}
+
+.provide-table-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    align-items: center;
+    border: 1px solid grey;
+    padding: 50px 100px;
+    border-radius: 5px;
+}
+
+.provide-table-item span {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.provide-table-item p {
+    font-size: 24px;
+}
+.service{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.service-table{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 55px;
+    background-color: #fcfbfb;
+}
+.creative{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.creative-table{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 55px;
+    flex-wrap: wrap;
+}
+.creative p{
+    flex-direction: column;
+}
+.meet{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.meet-table{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 55px;
+    background-color: #fcfbfb;
+}
